@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android-PullToRefresh/Android-PullToRefresh.iml" filepath="$PROJECT_DIR$/Android-PullToRefresh/Android-PullToRefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HRichEditorView/HRichEditorView.iml" filepath="$PROJECT_DIR$/HRichEditorView/HRichEditorView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JieCaoVideoPlayer-develop/JieCaoVideoPlayer-develop.iml" filepath="$PROJECT_DIR$/JieCaoVideoPlayer-develop/JieCaoVideoPlayer-develop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OverwatchProgress-master-app/OverwatchProgress-master-app.iml" filepath="$PROJECT_DIR$/OverwatchProgress-master-app/OverwatchProgress-master-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScrollViewContainer/ScrollViewContainer.iml" filepath="$PROJECT_DIR$/ScrollViewContainer/ScrollViewContainer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Search_Layout-app/Search_Layout-app.iml" filepath="$PROJECT_DIR$/Search_Layout-app/Search_Layout-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SlidingMenu_library/SlidingMenu_library.iml" filepath="$PROJECT_DIR$/SlidingMenu_library/SlidingMenu_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appHRichEditor/appHRichEditor.iml" filepath="$PROJECT_DIR$/appHRichEditor/appHRichEditor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/banner/banner.iml" filepath="$PROJECT_DIR$/banner/banner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feature/feature.iml" filepath="$PROJECT_DIR$/feature/feature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instantapp/instantapp.iml" filepath="$PROJECT_DIR$/instantapp/instantapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jcvideoplayer-lib/jcvideoplayer-lib.iml" filepath="$PROJECT_DIR$/jcvideoplayer-lib/jcvideoplayer-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiaozivideoplayer/jiaozivideoplayer.iml" filepath="$PROJECT_DIR$/jiaozivideoplayer/jiaozivideoplayer.iml" />
+      <module fileurl="file://F:\git\android\androidshop2019\MyApplication\pullto-refresh-library\library.iml" filepath="F:\git\android\androidshop2019\MyApplication\pullto-refresh-library\library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/overwatch/overwatch.iml" filepath="$PROJECT_DIR$/overwatch/overwatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullToRefreshListFragment/pullToRefreshListFragment.iml" filepath="$PROJECT_DIR$/pullToRefreshListFragment/pullToRefreshListFragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullToRefreshViewPager/pullToRefreshViewPager.iml" filepath="$PROJECT_DIR$/pullToRefreshViewPager/pullToRefreshViewPager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullto-refresh-library/pullto-refresh-library.iml" filepath="$PROJECT_DIR$/pullto-refresh-library/pullto-refresh-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/searchview/searchview.iml" filepath="$PROJECT_DIR$/searchview/searchview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/universalvideoview/universalvideoview.iml" filepath="$PROJECT_DIR$/universalvideoview/universalvideoview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/universalvideoviewsample/universalvideoviewsample.iml" filepath="$PROJECT_DIR$/universalvideoviewsample/universalvideoviewsample.iml" />
+    </modules>
+  </component>
+</project>

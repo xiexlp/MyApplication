@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context="android.js.com.myapplication.feature.TopicDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/ib_good_info_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_bar_left_back" />
+
+        <TextView
+            android:id="@+id/topic_title_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="商品详情"
+            android:textColor="#564c4c"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/username_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="商品详情"
+            android:textColor="#564c4c"
+            android:textSize="20sp"
+            />
+
+        <ImageButton
+            android:id="@+id/ib_good_info_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_more" />
+
+    </LinearLayout>
+    <!--分割线-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeee" />
+
+
+
+    <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        android:fillViewport="true"
+        android:layout_weight="1"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="35dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@color/cardview_light_background"
+                >
+                <TextView
+                    android:id="@+id/topic_content_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/cardview_light_background"
+                    android:textColor="@color/cardview_dark_background"
+                    />
+            </android.support.v7.widget.CardView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.js.com.myapplication.feature.customize.MyListView
+                    android:id="@+id/topic_reply_list_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="vertical"
+                    android:background="@color/cardview_light_background"
+                    />
+
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <Button
+                    android:id="@+id/backToBoardBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="返回所属论坛"
+                    />
+
+                <TextView
+                    android:id="@+id/boardIdTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:background="#DCDBDB"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="所属论坛id"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:background="#ffffffff"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:alpha="1"
+            >
+
+
+
+            <EditText
+                android:id="@+id/etContent"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:drawableBottom="@drawable/selector_edit_focus"
+                android:visibility="visible"/>
+
+            <Button
+                android:id="@+id/btnAudio"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/shape_session_btn_voice_normal"
+                android:text="@string/please_to_talk"
+                android:textColor="@color/gray1"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/ivAudio"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/ic_cheat_voice" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/ivEmo"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:src="@mipmap/ic_cheat_emo"/>
+
+        <ImageView
+            android:id="@+id/ivMore"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="7dp"
+            android:src="@mipmap/ic_cheat_add"/>
+
+        <Button
+            android:id="@+id/btnSend"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="43dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/shape_session_btn_send"
+            android:text="@string/send"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</LinearLayout>

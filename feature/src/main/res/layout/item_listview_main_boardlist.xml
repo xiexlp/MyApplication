@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+
+    <android.js.com.myapplication.feature.customize.CircleImageView
+        android:id="@+id/imageView_item_listview_boardpic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="fitXY"
+    />
+
+
+    <TextView
+        android:id="@+id/text_item_listview_boardname"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="sectionName" />
+
+    <TextView
+        android:id="@+id/text_item_listview_brief"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="sectionName" />
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Android-PullToRefresh" />
+            <option value="$PROJECT_DIR$/HRichEditorView" />
+            <option value="$PROJECT_DIR$/JieCaoVideoPlayer-develop" />
+            <option value="$PROJECT_DIR$/OverwatchProgress-master-app" />
+            <option value="$PROJECT_DIR$/ScrollViewContainer" />
+            <option value="$PROJECT_DIR$/Search_Layout-app" />
+            <option value="$PROJECT_DIR$/SlidingMenu_library" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/appHRichEditor" />
+            <option value="$PROJECT_DIR$/banner" />
+            <option value="$PROJECT_DIR$/banner-master-app" />
+            <option value="$PROJECT_DIR$/banner-master-new" />
+            <option value="$PROJECT_DIR$/base" />
+            <option value="$PROJECT_DIR$/feature" />
+            <option value="$PROJECT_DIR$/instantapp" />
+            <option value="$PROJECT_DIR$/jcvideoplayer-lib" />
+            <option value="$PROJECT_DIR$/jiaozivideoplayer" />
+            <option value="$PROJECT_DIR$/overwatch" />
+            <option value="$PROJECT_DIR$/pullToRefreshListFragment" />
+            <option value="$PROJECT_DIR$/pullToRefreshViewPager" />
+            <option value="$PROJECT_DIR$/pullto-refresh-library" />
+            <option value="$PROJECT_DIR$/searchview" />
+            <option value="$PROJECT_DIR$/universalvideoview" />
+            <option value="$PROJECT_DIR$/universalvideoviewsample" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

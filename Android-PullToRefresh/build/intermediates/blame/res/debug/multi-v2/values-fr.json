@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\git\\android\\androidshop2019\\MyApplication\\Android-PullToRefresh\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
+            "map": [
+                {
+                    "source": "F:\\git\\android\\androidshop2019\\MyApplication\\pullto-refresh-library\\build\\intermediates\\bundles\\debug\\res\\values-fr\\values-fr.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,133,206",
+                        "endColumns": "77,72,83",
+                        "endOffsets": "128,201,285"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\root\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\3ae80c3d28e1b849c03ba54366348cea\\res\\values-fr\\values-fr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "290",
+                        "endColumns": "100",
+                        "endOffsets": "386"
+                    }
+                }
+            ]
+        }
+    ]
+}

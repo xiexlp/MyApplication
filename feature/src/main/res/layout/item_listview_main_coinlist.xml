@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    >
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<android.js.com.myapplication.feature.customize.CircleImageView-->
+        <!--android:id="@+id/imageView_item_listview_coin_logo"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:visibility="gone"-->
+        <!--/>-->
+
+        <TextView
+            android:id="@+id/currency_id_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="currencyId"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/currency_price_id_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="currencyPriceId"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/currency_symbol_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="symbol" />
+
+        <TextView
+            android:id="@+id/currency_test_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全球指数" />
+
+        <!--</RelativeLayout>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="3"
+        android:layout_gravity="center"
+        >
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/currency_item_price_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginRight="@dimen/dp_20"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="price"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/currency_price_change_text_view"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="price change"
+            android:background="@drawable/textview_style"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

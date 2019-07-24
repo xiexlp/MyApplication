@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="android.js.com.myapplication.feature.pullrefresh.PullRefreshActivity">
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#1fa4df"
+        android:textAlignment="center"
+        android:paddingTop="20dp"/>
+
+
+    <Button
+        android:id="@+id/pull_refresh_list_view_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pull list"
+        />
+
+
+    <Button
+        android:id="@+id/pull_refresh_grid_view_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pull grid"
+        />
+
+    <Button
+        android:id="@+id/pull_refresh_fragment_view_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pull fragment"
+        />
+
+    <Button
+        android:id="@+id/pull_refresh_viewpager_view_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pull 多个 list view 在 viewpager里面"
+        />
+
+    <Button
+        android:id="@+id/pull_refresh_viewpager2_view_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pull viewpager2 左右更新"
+        />
+
+    <Button
+        android:id="@+id/pull_refresh_webview_view_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pull webview"
+        />
+
+
+    <Button
+        android:id="@+id/pull_refresh_webview_view2_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pull webview"
+        />
+
+    <Button
+        android:id="@+id/pull_refresh_scroll_view_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pull scroll view"
+        />
+
+</LinearLayout>

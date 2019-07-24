@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\git\\android\\androidshop2019\\MyApplication\\ScrollViewContainer\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-es\\values-es.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\root\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\3ae80c3d28e1b849c03ba54366348cea\\res\\values-es\\values-es.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

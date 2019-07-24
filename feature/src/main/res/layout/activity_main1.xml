@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="android.js.com.myapplication.feature.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+
+            <TableLayout
+                android:id="@+id/TableLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:collapseColumns="0,3" >
+
+                <TableRow>
+
+
+                    <Button
+                        android:id="@+id/button11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button"
+                        tools:layout_editor_absoluteX="148dp"
+                        tools:layout_editor_absoluteY="119dp"
+                        />
+
+
+                    <Button
+                        android:id="@+id/pullRefreshButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="测试pull to refresh"
+                        tools:layout_editor_absoluteX="200dp"
+                        tools:layout_editor_absoluteY="35dp"
+                        tools:ignore="MissingConstraints" />
+
+
+                    <Button
+                        android:id="@+id/toForumButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ok get数据,转向论坛"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+                    <Button
+                        android:id="@+id/to_pic_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="拍照图片上传"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+                </TableRow>
+
+
+                <TableRow>
+
+
+
+
+
+                    <Button
+                        android:id="@+id/universal_video_view_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="universal播放视频"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+
+                    <Button
+                        android:id="@+id/jie_cao_video_view_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="节操播放视频"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+
+                    <Button
+                        android:id="@+id/to_market_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="进入行情页面"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+
+                    <Button
+                        android:id="@+id/login_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="弹出登录对话框"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+
+                </TableRow>
+
+
+                <TableRow>
+
+
+
+
+
+
+
+
+                    <Button
+                        android:id="@+id/to_login_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="登录"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+
+                    <Button
+                        android:id="@+id/to_slidingmenu_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="slidingmenu"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+
+
+                    <Button
+                        android:id="@+id/button13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ok post数据"
+                        tools:layout_editor_absoluteX="400dp"
+                        tools:layout_editor_absoluteY="300dp" />
+
+
+                    <Button
+                        android:id="@+id/button14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="volley get数据"
+                        tools:layout_editor_absoluteX="500dp"
+                        tools:layout_editor_absoluteY="400dp" />
+
+
+
+
+
+                </TableRow>
+
+
+                <TableRow>
+
+
+                    <Button
+                        android:id="@+id/button11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button"
+                        tools:layout_editor_absoluteX="148dp"
+                        tools:layout_editor_absoluteY="119dp"
+                        />
+
+
+                    <Button
+                        android:id="@+id/pullRefreshButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="测试pull to refresh"
+                        tools:layout_editor_absoluteX="200dp"
+                        tools:layout_editor_absoluteY="35dp"
+                        tools:ignore="MissingConstraints" />
+
+
+                    <Button
+                        android:id="@+id/toForumButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ok get数据,转向论坛"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+                    <Button
+                        android:id="@+id/to_pic_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="拍照图片上传"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+
+                    <Button
+                        android:id="@+id/universal_video_view_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="universal播放视频"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+
+                    <Button
+                        android:id="@+id/jie_cao_video_view_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="节操播放视频"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+
+                    <Button
+                        android:id="@+id/to_market_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="进入行情页面"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+
+                    <Button
+                        android:id="@+id/login_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="弹出登录对话框"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+
+                    <Button
+                        android:id="@+id/to_login_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="登录"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+
+                    <Button
+                        android:id="@+id/to_slidingmenu_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="slidingmenu"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+
+
+                    <Button
+                        android:id="@+id/button13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ok post数据"
+                        tools:layout_editor_absoluteX="400dp"
+                        tools:layout_editor_absoluteY="300dp" />
+
+
+                    <Button
+                        android:id="@+id/button14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="volley get数据"
+                        tools:layout_editor_absoluteX="500dp"
+                        tools:layout_editor_absoluteY="400dp" />
+
+                    <Button
+                        android:id="@+id/button15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="volley post数据"
+                        tools:layout_editor_absoluteX="600dp"
+                        tools:layout_editor_absoluteY="500dp" />
+
+                    <Button
+                        android:id="@+id/button16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="volley image request图片"
+                        tools:layout_editor_absoluteX="600dp"
+                        tools:layout_editor_absoluteY="600dp" />
+
+                    <Button
+                        android:id="@+id/button17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="volley image loader 图片"
+                        tools:layout_editor_absoluteX="600dp"
+                        tools:layout_editor_absoluteY="700dp" />
+
+                    <Button
+                        android:id="@+id/button18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="volley network work图片"
+                        tools:layout_editor_absoluteX="600dp"
+                        tools:layout_editor_absoluteY="800dp" />
+
+                    <Button
+                        android:id="@+id/web_view_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="测试webview"
+                        tools:layout_editor_absoluteX="600dp"
+                        tools:layout_editor_absoluteY="800dp" />
+
+
+                </TableRow>
+
+                <TableRow>
+
+
+                    <Button
+                        android:id="@+id/button11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button"
+                        tools:layout_editor_absoluteX="148dp"
+                        tools:layout_editor_absoluteY="119dp"
+                        />
+
+
+                    <Button
+                        android:id="@+id/pullRefreshButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="测试pull to refresh"
+                        tools:layout_editor_absoluteX="200dp"
+                        tools:layout_editor_absoluteY="35dp"
+                        tools:ignore="MissingConstraints" />
+
+
+                    <Button
+                        android:id="@+id/toForumButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ok get数据,转向论坛"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+                    <Button
+                        android:id="@+id/to_pic_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="拍照图片上传"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+
+                    <Button
+                        android:id="@+id/universal_video_view_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="universal播放视频"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+
+                    <Button
+                        android:id="@+id/jie_cao_video_view_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="节操播放视频"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+
+                    <Button
+                        android:id="@+id/to_market_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="进入行情页面"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+
+                    <Button
+                        android:id="@+id/login_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="弹出登录对话框"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+
+                    <Button
+                        android:id="@+id/to_login_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="登录"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+
+                    <Button
+                        android:id="@+id/to_slidingmenu_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="slidingmenu"
+                        tools:layout_editor_absoluteX="300dp"
+                        tools:layout_editor_absoluteY="200dp" />
+
+
+
+                    <Button
+                        android:id="@+id/button13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ok post数据"
+                        tools:layout_editor_absoluteX="400dp"
+                        tools:layout_editor_absoluteY="300dp" />
+
+
+                    <Button
+                        android:id="@+id/button14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="volley get数据"
+                        tools:layout_editor_absoluteX="500dp"
+                        tools:layout_editor_absoluteY="400dp" />
+
+                    <Button
+                        android:id="@+id/button15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="volley post数据"
+                        tools:layout_editor_absoluteX="600dp"
+                        tools:layout_editor_absoluteY="500dp" />
+
+                    <Button
+                        android:id="@+id/button16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="volley image request图片"
+                        tools:layout_editor_absoluteX="600dp"
+                        tools:layout_editor_absoluteY="600dp" />
+
+                    <Button
+                        android:id="@+id/button17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="volley image loader 图片"
+                        tools:layout_editor_absoluteX="600dp"
+                        tools:layout_editor_absoluteY="700dp" />
+
+                    <Button
+                        android:id="@+id/button18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="volley network work图片"
+                        tools:layout_editor_absoluteX="600dp"
+                        tools:layout_editor_absoluteY="800dp" />
+
+                    <Button
+                        android:id="@+id/web_view_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="测试webview"
+                        tools:layout_editor_absoluteX="600dp"
+                        tools:layout_editor_absoluteY="800dp" />
+
+
+                </TableRow>
+            </TableLayout>
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:lines="20"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="300dp"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@android:drawable/btn_star" />
+
+
+                <com.android.volley.toolbox.NetworkImageView
+                    android:id="@+id/iv_volley_networkimagview"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:visibility="gone">
+
+                </com.android.volley.toolbox.NetworkImageView>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Hello World!"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+
+
+        <!--</LinearLayout>-->
+
+
+    </ScrollView>
+
+
+</LinearLayout>

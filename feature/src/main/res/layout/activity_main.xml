@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="android.js.com.myapplication.feature.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:id="@+id/TableLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+
+                    <Button
+                        android:id="@+id/button11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_60"
+                        android:layout_weight="1"
+                        android:text="Button"
+
+                        />
+
+                    <Button
+                        android:id="@+id/pullRefreshButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_60"
+                        android:layout_weight="1"
+                        android:text="测试pulltorefresh" />
+
+                    <Button
+                        android:id="@+id/toForumButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_60"
+                        android:layout_weight="1"
+                        android:text="okget数据转向论坛" />
+
+
+                </TableRow>
+
+
+                <TableRow>
+
+                    <Button
+                        android:id="@+id/to_pic_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_60"
+                        android:layout_weight="1"
+                        android:text="拍照图片上传" />
+
+
+                    <Button
+                        android:id="@+id/universal_video_view_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_60"
+                        android:layout_weight="1"
+                        android:text="universal播放视频" />
+
+                    <Button
+                        android:id="@+id/jie_cao_video_view_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_60"
+                        android:layout_weight="1"
+                        android:text="节操播放视频" />
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <Button
+                        android:id="@+id/to_market_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_60"
+                        android:layout_weight="1"
+                        android:text="进入行情页面" />
+
+                    <Button
+                        android:id="@+id/login_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_60"
+                        android:layout_weight="1"
+                        android:text="弹出登录对话框" />
+
+
+                    <Button
+                        android:id="@+id/to_login_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_60"
+                        android:layout_weight="1"
+                        android:text="登录" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <Button
+                        android:id="@+id/to_slidingmenu_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_60"
+                        android:layout_weight="1"
+                        android:text="slidingmenu" />
+
+                    <Button
+                        android:id="@+id/button13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_60"
+                        android:layout_weight="1"
+                        android:text="okpost数据" />
+
+                    <Button
+                        android:id="@+id/button14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_60"
+                        android:layout_weight="1"
+                        android:text="volleyget数据" />
+
+                </TableRow>
+
+
+                <TableRow>
+
+                    <Button
+                        android:id="@+id/button15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_60"
+                        android:layout_weight="1"
+                        android:text="volleypost数据" />
+
+                    <Button
+                        android:id="@+id/button16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_60"
+                        android:layout_weight="1"
+                        android:text="volleyimagerequest图片" />
+
+                    <Button
+                        android:id="@+id/button17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_60"
+                        android:layout_weight="1"
+                        android:text="volleyimageloader图片" />
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <Button
+                        android:id="@+id/button18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_60"
+                        android:layout_weight="1"
+                        android:text="volleynetworkwork图片" />
+
+                    <Button
+                        android:id="@+id/web_view_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_60"
+                        android:layout_weight="1"
+                        android:text="测试webview" />
+
+                    <Button
+                        android:id="@+id/btn_banner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_60"
+                        android:layout_weight="1"
+                        android:text="view banner111" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:lines="20"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@android:drawable/btn_star" />
+
+
+                <com.android.volley.toolbox.NetworkImageView
+                    android:id="@+id/iv_volley_networkimagview"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:visibility="gone">
+
+                </com.android.volley.toolbox.NetworkImageView>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Hello World!"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+
+        <!--</LinearLayout>-->
+
+
+    </ScrollView>
+
+
+</LinearLayout>
